@@ -48,7 +48,7 @@ title: 新生你好
     <div class="innenu-grid-text">需带物品</div>
   </a>
 
-  <a href="/新生你好/" class="innenu-grid-item">
+  <a href="/新生你好/入学活动/" class="innenu-grid-item">
     <div class="innenu-grid-icon">🎉</div>
     <div class="innenu-grid-text">入学活动</div>
   </a>

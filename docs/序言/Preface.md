@@ -1,5 +1,6 @@
 ---
 title: 写在前面
+date: 2025-04-01
 ---
 
 <p style="text-align: center;">

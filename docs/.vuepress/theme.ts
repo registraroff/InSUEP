@@ -96,6 +96,7 @@ export default hopeTheme({
     attrs: true,
     figure: true,
     linksCheck: false,
+    mermaid: true,
   },
 
   plugins: {

@@ -5,10 +5,6 @@ author:
 date: 2025-08-02
 ---
 
-::: warning
-缺少可用例子
-:::
-
 # List 样式
 
 ## 概述
@@ -190,64 +186,22 @@ List 样式用于创建列表组件，支持多种列表项类型，包括普通
 
 ## 使用例子
 
-### 普通列表
-
-```html
 <ul class="innenu-list">
-  <li class="innenu-list-item">
-    <img class="innenu-list-icon" src="icon1.png" alt="图标1" />
-    <div class="innenu-list-detail">
-      <div class="innenu-list-text">列表项标题</div>
-      <div class="innenu-list-desc">描述信息</div>
-    </div>
-  </li>
-  <li class="innenu-list-item">
-    <img class="innenu-list-icon" src="icon2.png" alt="图标2" />
-    <div class="innenu-list-detail">
-      <div class="innenu-list-text">另一个列表项</div>
-      <div class="innenu-list-desc">更多描述</div>
-    </div>
+  <li class="innenu-list-item route-link">
+    <a href="/上电指南/数码产品建议/电脑选购指南" class="innenu-list-detail">
+      <div class="innenu-list-text">电脑选购指南</div>
+      <!-- <div class="innenu-list-desc">参考电脑选购指南</div> -->
+    </a>
   </li>
 </ul>
-```
-
-### 路由链接列表
 
 ```html
 <ul class="innenu-list">
   <li class="innenu-list-item route-link">
-    <img class="innenu-list-icon" src="link-icon.png" alt="链接图标" />
-    <div class="innenu-list-detail">
-      <div class="innenu-list-text">可点击的链接</div>
-      <div class="innenu-list-desc">点击跳转</div>
-    </div>
-  </li>
-</ul>
-```
-
-### 带页脚的列表
-
-```html
-<ul class="innenu-list">
-  <li class="innenu-list-item">
-    <img class="innenu-list-icon" src="icon.png" alt="图标" />
-    <div class="innenu-list-detail">
-      <div class="innenu-list-text">列表项</div>
-      <div class="innenu-list-desc">描述</div>
-    </div>
-  </li>
-  <div class="innenu-list-footer">页脚信息</div>
-</ul>
-```
-
-### 无标题列表
-
-```html
-<ul class="innenu-list noheader">
-  <li class="innenu-list-item">
-    <div class="innenu-list-detail">
-      <div class="innenu-list-text">无标题列表项</div>
-    </div>
+    <a href="/上电指南/数码产品建议/电脑选购指南" class="innenu-list-detail">
+      <div class="innenu-list-text">电脑选购指南</div>
+      <!-- <div class="innenu-list-desc">参考电脑选购指南</div> -->
+    </a>
   </li>
 </ul>
 ```

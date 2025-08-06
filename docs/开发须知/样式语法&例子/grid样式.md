@@ -5,10 +5,6 @@ author:
 date: 2025-08-02
 ---
 
-::: warning
-缺少可用例子
-:::
-
 # Grid 样式
 
 ## 概述
@@ -120,65 +116,27 @@ Grid 样式用于创建网格布局组件，支持响应式设计，在不同屏
 
 ### 基础网格
 
-```html
 <div class="innenu-grid">
-  <a href="/link1" class="innenu-grid-item">
-    <div class="innenu-grid-icon">📚</div>
-    <div class="innenu-grid-text">学习资料</div>
-  </a>
-  <a href="/link2" class="innenu-grid-item">
-    <div class="innenu-grid-icon">🎓</div>
-    <div class="innenu-grid-text">学术资源</div>
-  </a>
-  <a href="/link3" class="innenu-grid-item">
-    <div class="innenu-grid-icon">🏫</div>
-    <div class="innenu-grid-text">校园生活</div>
-  </a>
-  <a href="/link4" class="innenu-grid-item">
+  <a href="/新生你好/入学准备/" class="innenu-grid-item">
     <div class="innenu-grid-icon">📋</div>
-    <div class="innenu-grid-text">规章制度</div>
+    <div class="innenu-grid-text">入学准备</div>
+  </a>
+
+  <a href="/新生你好/入学准备/" class="innenu-grid-item">
+    <div class="innenu-grid-icon">📚</div>
+    <div class="innenu-grid-text">入学教育</div>
+  </a>
+
+  <a href="/新生你好/需带物品/" class="innenu-grid-item">
+    <div class="innenu-grid-icon">📦</div>
+    <div class="innenu-grid-text">需带物品</div>
+  </a>
+
+  <a href="/新生你好/入学活动/" class="innenu-grid-item">
+    <div class="innenu-grid-icon">🎉</div>
+    <div class="innenu-grid-text">入学活动</div>
   </a>
 </div>
-```
-
-### 带图标的网格
-
-```html
-<div class="innenu-grid">
-  <a href="/guide" class="innenu-grid-item">
-    <img class="innenu-grid-icon" src="guide-icon.png" alt="指南图标" />
-    <div class="innenu-grid-text">新生指南</div>
-  </a>
-  <a href="/campus" class="innenu-grid-item">
-    <img class="innenu-grid-icon" src="campus-icon.png" alt="校园图标" />
-    <div class="innenu-grid-text">校园介绍</div>
-  </a>
-  <a href="/services" class="innenu-grid-item">
-    <img class="innenu-grid-icon" src="services-icon.png" alt="服务图标" />
-    <div class="innenu-grid-text">服务指南</div>
-  </a>
-  <a href="/contact" class="innenu-grid-item">
-    <img class="innenu-grid-icon" src="contact-icon.png" alt="联系图标" />
-    <div class="innenu-grid-text">联系方式</div>
-  </a>
-</div>
-```
-
-### 带页脚的网格
-
-```html
-<div class="innenu-grid">
-  <a href="/item1" class="innenu-grid-item">
-    <div class="innenu-grid-icon">📖</div>
-    <div class="innenu-grid-text">项目一</div>
-  </a>
-  <a href="/item2" class="innenu-grid-item">
-    <div class="innenu-grid-icon">📝</div>
-    <div class="innenu-grid-text">项目二</div>
-  </a>
-  <div class="innenu-grid-footer">更多功能请访问完整版网站</div>
-</div>
-```
 
 ### 效果
 
