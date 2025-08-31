@@ -85,8 +85,6 @@ export default hopeTheme({
 
   pageInfo: ["Author", "Original", "Date", "PageView", "ReadingTime", "Word"],
 
-  pure: true,
-
   metaLocales: {
     date: "更新日期",
   },
