@@ -1,10 +1,11 @@
 name: Deploy to Tencent Cloud
 
 on:
-  push:
-    branches:
-      - main
-      - debug
+  workflow_dispatch:
+  # push:
+  #   branches:
+  #     - main
+  #     - debug
 
 permissions:
   contents: read
