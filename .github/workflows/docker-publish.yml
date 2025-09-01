@@ -21,4 +21,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/insuep:${{ github.ref_name == 'main' ? 'latest' : github.ref_name }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/insuep:${{ github.ref_name == 'main' && 'latest' || github.ref_name }}
